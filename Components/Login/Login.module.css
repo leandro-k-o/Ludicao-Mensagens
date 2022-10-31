@@ -1,0 +1,25 @@
+.login{
+  display: flex;
+  padding: 3rem;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn{
+  padding: 12px 24px;
+  background: #D7B9EE;
+  border: 1px solid #9C77B8;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.imgcontainer{
+  
+}
+
+.imgcontainer img{
+  max-width: 100%;
+}

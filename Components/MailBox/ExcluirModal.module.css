@@ -1,0 +1,75 @@
+.modal{
+  margin: 0px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top:0px;
+  left:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.158);
+  z-index: 9999;
+  padding: 2rem .5rem;
+}
+
+.modalWindow{
+/* width: 309px;
+height: 148px; */
+  max-width: 300px;
+  background: #F9F9F9;
+  border: 2px solid #BD99DA;
+  border-radius: 5px;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  align-items: center;
+  justify-content: center;
+  animation: showScaleUp .2s forwards;
+}
+
+@keyframes showScaleUp {
+  0%{
+    opacity: 0;
+    scale: .8;
+  }100%{
+    opacity: 1;
+    scale: 1;
+  }
+}
+.alert{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F3F0F5;
+  border-radius: 5px 5px 0 0;
+  padding: 8px;
+}
+
+.text{
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+  color: #666666;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.btnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btnContainer button{
+  font-family: 'Roboto';
+  font-size: .9rem;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7A7A7A;
+  padding: 4px 20px;
+  border: 1px solid #959595;
+  border-radius: 5px; 
+}

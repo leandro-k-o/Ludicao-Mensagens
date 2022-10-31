@@ -1,0 +1,76 @@
+.headerMobile{
+  background: #D7B9EE;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 20px;
+  position: relative;
+  top:0px;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  height: 64px;
+  background: linear-gradient(180deg, #D7B9EE 0%, #cdb4e0 100%);
+  box-shadow: 1px 1px 1px #D7B9EE;
+  border-radius: 10px;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnVoltar{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btnHidden{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ul{
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.li abbr{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.li svg path{
+  fill: rgb(0, 0, 0);
+}
+
+@keyframes showContent {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+
+.btnDisabled{
+  pointer-events: none;
+}
+
+.btnDisabled svg{
+  filter: contrast(10%);
+}
+.btnDisabled svg path{
+  /* background-color: red; */
+  fill: rgb(112, 112, 112);
+}
